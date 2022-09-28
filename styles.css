@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+}
+
+.container{
+    max-width: 1024px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.nadadora{
+    width: 100%;
+}
+
+.logo{
+    margin: 5px 20px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    background-color: #25356f;
+}
+
+nav{
+    margin-top: 5px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a{
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: #dfd1c4
+}
+
+.pos-header{
+    text-align: center;
+}
+
+.esporte{
+    font-style: italic;
+}
+
+#avisos{
+    margin-top: 100px;
+    background-color: #25356f;
+    color: #fff;
+}
+#avisos h2{
+    font-size: 2em;
+    padding: 30px 0 0 20px;
+}
+
+#avisos ul li{
+    font-size: 1.5em;
+    line-height: 2;
+    padding: 10px 20px;
+}
